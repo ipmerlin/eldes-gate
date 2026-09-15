@@ -1,7 +1,7 @@
 {
   "domain": "eldes_gate",
   "name": "Eldes Gate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "config_flow": true,
   "documentation": "https://github.com/ipmerlin/eldes-gate",
   "issue_tracker": "https://github.com/ipmerlin/eldes-gate/issues",
