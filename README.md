@@ -2,7 +2,6 @@
 
 Управление воротами и калиткой Eldes из Home Assistant через облачный портал Eldes.
 Настройка через интерфейс HA, отдельные датчики открытия, русский и английский языки.
-AppDaemon и Selenium не нужны.
 
 [![Установить через HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=ipmerlin&repository=eldes-gate&category=integration)
 [![Добавить интеграцию](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=eldes_gate)
@@ -14,8 +13,6 @@ AppDaemon и Selenium не нужны.
 3. Нажмите вторую кнопку. Укажите логин, пароль и ID устройства с портала Eldes (`device/control/?id=…`).
 4. При необходимости выберите датчики открытия ворот и калитки из HA.
 
-Если первая кнопка не сработала: HACS → ⋮ → **Пользовательские репозитории** →
-`https://github.com/ipmerlin/eldes-gate` → тип **Интеграция**.
 
 Для ручной установки скопируйте `custom_components/eldes_gate` в `/config/custom_components/` и выполните шаги 2–4.
 
@@ -38,12 +35,6 @@ AppDaemon и Selenium не нужны.
 Снятие выбора датчика возвращает индикацию по таймеру.
 
 После обновления через HACS перезапустите HA и обновите страницу браузера.
-Логотип для светлой и тёмной темы поддерживается в **HA 2026.3+**.
-Если иконка сущности была задана вручную, очистите её, чтобы использовать новую иконку интеграции.
 
-Интеграция использует веб-портал Eldes: изменения портала могут повлиять на её работу.
-Пароль хранится в конфигурации HA; ключи устройства не выводятся в журналы.
 
 [Сообщить об ошибке](https://github.com/ipmerlin/eldes-gate/issues) · [Релизы](https://github.com/ipmerlin/eldes-gate/releases)
-
-Для разработчиков: `python scripts/check.py` — проверки без подключения к Eldes.
