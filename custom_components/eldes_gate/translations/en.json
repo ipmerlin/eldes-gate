@@ -1,0 +1,67 @@
+{
+  "entity": {
+    "binary_sensor": {
+      "error_c2": {
+        "name": "Wicket command error"
+      },
+      "error_c1": {
+        "name": "Gate command error"
+      },
+      "sending_c2": {
+        "name": "Wicket command active"
+      },
+      "sending_c1": {
+        "name": "Gate command active"
+      },
+      "opening_c1": {
+        "name": "Gate opening"
+      },
+      "opening_c2": {
+        "name": "Wicket opening"
+      }
+    },
+    "button": {
+      "press_c1": {
+        "name": "Gate"
+      },
+      "press_c2": {
+        "name": "Wicket"
+      }
+    }
+  },
+  "config": {
+    "error": {
+      "invalid_auth": "Invalid credentials or access denied",
+      "cannot_connect": "Cannot connect or parse the Eldes device page"
+    },
+    "step": {
+      "user": {
+        "title": "Eldes Gate",
+        "data": {
+          "password": "Password",
+          "device_id": "Device ID",
+          "sensor_hold_seconds": "Command indicator duration (seconds)",
+          "username": "Username or email",
+          "gate_contact": "Gate contact sensor (optional)",
+          "wicket_contact": "Wicket contact sensor (optional)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This account and device are already configured"
+    }
+  },
+  "title": "Eldes Gate",
+  "options": {
+    "step": {
+      "init": {
+        "title": "Eldes Gate",
+        "data": {
+          "wicket_contact": "Wicket contact sensor (optional)",
+          "sensor_hold_seconds": "Command indicator duration (seconds)",
+          "gate_contact": "Gate contact sensor (optional)"
+        }
+      }
+    }
+  }
+}

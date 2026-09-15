@@ -1,0 +1,11 @@
+{
+  "domain": "eldes_gate",
+  "name": "Eldes Gate",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://github.com/ipmerlin/eldes-gate",
+  "issue_tracker": "https://github.com/ipmerlin/eldes-gate/issues",
+  "codeowners": ["@ipmerlin"],
+  "iot_class": "cloud_polling",
+  "requirements": []
+}
