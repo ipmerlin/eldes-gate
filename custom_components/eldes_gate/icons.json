@@ -1,0 +1,16 @@
+{
+  "entity": {
+    "button": {
+      "press_c1": {"default": "mdi:gate"},
+      "press_c2": {"default": "mdi:door"}
+    },
+    "binary_sensor": {
+      "opening_c1": {"default": "mdi:gate", "state": {"on": "mdi:gate-open", "off": "mdi:gate"}},
+      "opening_c2": {"default": "mdi:door", "state": {"on": "mdi:door-open", "off": "mdi:door-closed"}},
+      "sending_c1": {"default": "mdi:send-outline", "state": {"on": "mdi:send", "off": "mdi:send-outline"}},
+      "sending_c2": {"default": "mdi:send-outline", "state": {"on": "mdi:send", "off": "mdi:send-outline"}},
+      "error_c1": {"default": "mdi:shield-check-outline", "state": {"on": "mdi:alert-circle", "off": "mdi:shield-check-outline"}},
+      "error_c2": {"default": "mdi:shield-check-outline", "state": {"on": "mdi:alert-circle", "off": "mdi:shield-check-outline"}}
+    }
+  }
+}

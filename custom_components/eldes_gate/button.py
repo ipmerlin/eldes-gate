@@ -8,7 +8,7 @@ async def async_setup_entry(hass, entry, async_add_entities):
 
 
 class EldesButton(EldesEntity, ButtonEntity):
-    _attr_icon = "mdi:gate"
+
 
     def __init__(self, controller, channel):
         super().__init__(controller, channel, "press")
